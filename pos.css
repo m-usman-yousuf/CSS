@@ -1,0 +1,42 @@
+.box{
+    position:absolute;
+    background-color: darkcyan;
+    border: darkblue;
+    border-style: outset;
+    height: 50px;
+    width: 50px;
+    background-color: darkcyan;
+
+
+}
+#box1 {
+    
+    top: 50px;
+    left: 50px;
+
+   
+   
+}
+
+#box2 {
+    
+    top: 50px;
+    right: 50px;
+    
+    
+}
+
+#box3 {
+    
+    bottom: 50px;
+    right: 50px;
+    
+   
+}
+
+#box4 {
+    
+    bottom: 50px;
+    left: 50px;
+    
+}

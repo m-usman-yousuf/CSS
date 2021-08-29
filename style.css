@@ -1,0 +1,165 @@
+body {
+    background: url("butterfly.gif") fixed no-repeat center black;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+	margin-right: 40px;
+	margin-bottom: 10px;
+    margin-left: 70px;
+  }
+h1 {
+    color:#FF0000;
+    background-color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight:normal;
+    font-size: 300%;
+    padding: 20px 20px 20px 80px;
+    
+        border-top-width: thick;
+		border-top-style: solid;
+		border-top-color: red;
+
+		border-bottom-width: thick;
+		border-bottom-style: solid;
+		border-bottom-color: blue;
+
+		border-right-width: thick;
+		border-right-style: solid;
+		border-right-color: green;
+
+		border-left-width: thick;
+		border-left-style: solid;
+		border-left-color: orange;
+}
+h2 {
+    background-color: yellow;
+    border-width: 20px;
+    border-style: outset;
+    border-color: red;
+    padding-left:120px;
+}
+
+
+p {
+    font-size: 200%;
+    text-indent: 30px;
+    text-align: left;
+    letter-spacing: 2px;
+    border-width: 1px;
+	border-style: dashed;
+	border-color: blue
+}
+
+li{
+    font-size: 2em;
+    text-transform: capitalize;
+
+}
+ul {
+    border-width: thin;
+    border-style: solid;
+    border-color: orange;
+}
+
+a{
+    color:blue;
+    font-size: 200%;
+}
+a:active {
+    background-color: #FFFF00;
+}
+a:hover {
+    color: orange;
+    font-style: italic;
+    letter-spacing: 10px;
+    font-weight:bold;
+    text-transform: uppercase;
+}
+a.whitewine {
+    color: #FFBB00;
+}
+
+a.redwine {
+    color: #800000;
+}
+#c1-2 {
+    color: red;
+}
+span.benefit {
+    color:red;
+}
+#democrats {
+    background:blue;
+}
+
+#republicans {
+    background:red;
+}
+#picture {
+    float:left;
+    width: 260px;
+}
+#nfs{
+    font-size: xx-large;
+    border: unset;
+    
+}
+div.box {
+    height: 500px;
+    width: 300px;
+    border: 1px solid black;
+    background: orange;
+    font-size: 150%;
+}
+#column1 {
+    float:left;
+    width: 33%;
+}
+
+#column2 {
+    float:left;
+    width: 33%;
+}
+
+#column3 {
+    float:left;
+    width: 33%;
+}
+/*layers code*/
+#ten_of_diamonds {
+    position: absolute;
+    left: 100px;
+    top: 300px;
+    z-index: 1;
+}
+
+#jack_of_diamonds {
+    position: absolute;
+    left: 115px;
+    top: 315px;
+    z-index: 2;
+}
+
+#queen_of_diamonds {
+    position: absolute;
+    left: 130px;
+    top: 330px;
+    z-index: 3;
+}
+
+#king_of_diamonds {
+    position: absolute;
+    left: 145px;
+    top: 345px;
+    z-index: 4;
+}
+
+#ace_of_diamonds {
+    position: absolute;
+    left: 160px;
+    top: 360px;
+    z-index: 5;
+}
+
